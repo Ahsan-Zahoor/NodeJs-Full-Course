@@ -21,3 +21,4 @@ const {add, subtract, multiply, divide} = require("./math")
 
 console.log(math.add(1, 2))
 console.log(subtract(1, 2))
+console.log(math.multiply(1, 2))
