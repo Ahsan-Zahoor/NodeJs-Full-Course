@@ -10,6 +10,8 @@
 
 const { format } = require("date-fns");
 const { v4: uuid } = require("uuid");
+const { format } = require("date-fns");
+const { v4: uuid } = require("uuid");
 // other way one can do is like const uuid = require('uuid') and use it as console.log(uuid.v4())
 console.log(format(new Date(), "yyyyMMdd\tHH:mm:ss"));
 

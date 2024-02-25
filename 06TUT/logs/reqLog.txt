@@ -1,0 +1,9 @@
+20240224	23:14:51	2e95447e-94a8-4676-8926-add5338c5a44	URL: /new-page.html, Method: GET
+20240224	23:14:52	ebcd3a31-f38c-4ed4-b023-0de5d1afb653	URL: /css/style.css, Method: GET
+20240224	23:14:52	22ed833a-b0d4-4088-89c1-e53b7e14eeac	URL: /img/img1.jpg, Method: GET
+20240224	23:14:52	e6996215-aef6-4c2a-9387-ceb16e6be047	URL: /favicon.ico, Method: GET
+20240224	23:17:16	e1b7b0b7-5aac-4dd3-a5ea-35e3da19eb15	URL: /new-page.html, Method: GET
+20240224	23:18:14	3f90cd62-5c7f-416f-9282-5cf60ef75b51	URL: /, Method: GET
+20240224	23:18:14	cf1d0a17-8ec4-4cc5-abd2-c41f583a9bf9	URL: /css/style.css, Method: GET
+20240224	23:18:16	3a123bfd-0481-41b7-88cb-e8b654c479ae	URL: /, Method: GET
+20240224	23:18:16	3445079d-b10d-4045-a931-1ea141fe78ef	URL: /css/style.css, Method: GET
