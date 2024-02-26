@@ -99,7 +99,7 @@ const three = (req, res) => {
 
 app.get("/chain(.html)?", [one, two, three]);
 
-//app.use('/) app.use not accept regex and mostly likely to use middleware
+//app.use('/) mostly likely to use middleware
 // app.get("/*", (req, res) => {
 //   res.status(404).sendFile(path.join(__dirname, "views", "404.html"));
 // });
