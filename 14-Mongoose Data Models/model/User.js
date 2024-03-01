@@ -10,7 +10,7 @@ const userSchema = new Schema({
     // User: {
     //   type: Number,
     //   default: 2001,
-    // }, //because its required every entry will have this value atlast so following this syntax, other single value means not required
+    // }, //because its required every entry will have this value atleast so following this syntax, other single value means not required
     User: Number,
     Editor: Number,
     Admin: Number,

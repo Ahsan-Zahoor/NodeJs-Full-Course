@@ -18,3 +18,4 @@
     |     property 's' -> object with constructor 'Object'
     |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
     --- property 'client' closes the circle
+20240302	01:06:43	0f168e3b-de43-403e-be9d-dcc3582d35f6	SyntaxError: Expected property name or '}' in JSON at position 1
