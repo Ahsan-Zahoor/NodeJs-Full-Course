@@ -67,10 +67,7 @@ const getEmployee = async (req, res) => {
     if (!req?.params?.id)
       return res.status(400).json({ message: "ID parameter is required." });
 
-    console.log("re params id -> ", req.params.id);
     const employee = await Employee.findOne({ _id: req.params.id }).exec();
-
-    console.log(employee);
 
     if (!employee) {
       return res
