@@ -27,10 +27,11 @@ const whitelist = [
   "http://localhost:3500",
   "https://www.google.com.pk",
 ];
+
 const corsOptions = {
   origin: (origin, callback) => {
     if (whitelist.indexOf(origin) !== -1 || !origin) {
-      callback(null, true); //first paramter is usally null which is error sothere's no error, and 2nd argument is origin will sent back sating roigin its allowed
+      callback(null, true); //first paramter is usally null which is error so there's no error, and 2nd argument is origin will sent back sating oigin its allowed
     } else {
       callback(new Error("not allowed by cors"));
     }
@@ -41,7 +42,7 @@ const corsOptions = {
 // cross origin resource sharing
 app.use(cors(corsOptions));
 
-//built in middleware to handle urelecoded data
+//built in middleware to handle urlencoded data
 // in other words, form data:
 // 'contentr-type': 'application/x-www-form-urlencoded'
 app.use(express.urlencoded({ extended: false }));
